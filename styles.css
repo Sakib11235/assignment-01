@@ -59,3 +59,51 @@
 .banner-parent button{
     margin-top: 278px;
 }
+
+/* speaker css */
+.speaker-parent h2{
+    text-align: center;
+}
+
+.speaker-parent{
+    margin-top: 80px;
+}
+.speaker-parent h2{
+    color:  #000102FF;
+    font-size: 56px;
+    font-weight: 700;
+}
+
+
+.speaker-card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 32px;
+    margin-right: 110px;
+    margin-left: 110px;
+    
+}
+.speaker-card-content{
+    border: 1px solid  #e5e7ebFF;
+    border-radius: 12px;
+    
+}
+
+.speaker-desig{
+    color: #2563ebFF;
+    font-size: 12px;
+    font-weight: 600;
+    padding-left: 24px;
+}
+.speaker-name{
+    color: #0d1b2aFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 24px;
+}
+.speaker-work{
+    color: #575757FF;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 24px;
+}
