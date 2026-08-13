@@ -107,3 +107,126 @@
     font-weight: 400;
     padding-left: 24px;
 }
+
+/* secure your spot css */
+.spot-parent h2, .spot-parent p{
+    color: black;
+    text-align: center;
+    
+}
+.spot-parent h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #0d1b2a;
+    margin-bottom: 0px;
+}
+.spot-parent p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #575757;
+    margin-top: 0px;
+}
+
+.spot-card{
+    height: auto;
+    width: 1320px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.spot-card-content,.spot-card-content-pro{
+    padding: 32px;
+    font-family: 'Inter',sans-serif;
+    border: 1px solid #e5e7ebFF;
+    border-radius: 12px;
+}
+.spot-card-content-pro{
+    background-color: #0d1b2aFF;
+}
+.spot-card-content-pro hr{
+    color: #ffffff33;
+}
+.card-type-pro{
+    font-size: 13px;
+    font-weight: 600;
+    color: #93C5FD;
+}
+.card-price-pro{
+    font-size: 44px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.content-down-pro{
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffffcc;
+    line-height: 1.5;
+    padding: 12px;
+}
+
+.content-up{
+    list-style: none;
+    padding: 0px;
+    
+}
+.card-type{
+    font-size: 13px;
+    font-weight: 600;
+    color: #888888;
+}
+.card-price{
+    font-size: 44px;
+    font-weight: 700;
+    color: #0d1b2a;
+}
+.card-unit{
+    font-size: 13px;
+    font-weight: 400;
+    color: #888888;
+}
+.content-down{
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    line-height: 1.5;
+    padding: 12px;
+
+}
+.content-down li::marker{
+    color: blue;
+}
+.card-btn{
+    border: none;
+    border-radius: 10px;
+    background-color: blue;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: 'Inter',sans-serif;
+    width: 100%;
+}
+.card-btn:hover{
+    background-color: rgb(146, 146, 208);
+    cursor: pointer;
+}
+
+.card-btn-2{
+    border: 1px solid #2563ebFF;
+    border-radius: 10px;
+    background-color: white;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    font-family: 'Inter',sans-serif;
+    width: 100%;
+}
+.card-btn-2:hover{
+    background-color: rgb(146, 146, 208);
+    cursor: pointer;
+}
