@@ -1,0 +1,1 @@
+Imagine a webpage contains dev conference that helds on "code.connect.create" among the engineers, founders and builders. Give me ideas and design about 'our mission' section based on the conference so that i can add this to the webpage.
