@@ -32,8 +32,8 @@
 /* banner css */
 .banner-parent{
     height: 786px;
-    background-image: url("./assets/banner.jpg");
-    /* background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)); */
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), 
+    url("./assets/banner.jpg");
 
     text-align: center;
     display: flex;
@@ -229,4 +229,60 @@
 .card-btn-2:hover{
     background-color: rgb(146, 146, 208);
     cursor: pointer;
+}
+/* mission css */
+.mission-parent{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mission-parent p{
+    color: #0d1b2a;
+    margin-top: 0px;
+}
+.mission-parent h2{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 50px;
+    font-size: 36px;
+}
+
+.mission-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    padding: 32px;
+    font-family: 'Inter',sans-serif;
+    border: 1px solid #e5e7ebFF;
+    border-radius: 12px;
+}
+.mission-card p{
+    color: #0d1b2a;
+}
+.mission-card i{
+    font-size: 30px;
+}
+
+
+
+
+
+/* footer css starts */
+.footer-parent{
+    background-color: #0d1b2a;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    align-items: center;
+    padding: 20px 70px;
+}
+.footer-parent p{
+    color: #ffffff66;
+}
+.footer-right{
+    display: flex;
+    gap: 20px;
 }
